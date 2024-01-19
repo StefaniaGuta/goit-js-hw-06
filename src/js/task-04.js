@@ -9,7 +9,6 @@ decrementCount.addEventListener('click', e => {
     valueCountable.textContent = counterValue;
   });
 
-
   incrementCount.addEventListener('click', e => {
     counterValue += 1;
     valueCountable.textContent = counterValue;
