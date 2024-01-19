@@ -8,6 +8,7 @@ loginForm.addEventListener("submit", e => {
     const emailInput = inputs[0];
     const passwordInput = inputs[1];
   
+    
    if(emailInput.value === '' || passwordInput.value === ''){
     alert(`All fields must be filled in!`)
 } else {
