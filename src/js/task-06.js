@@ -5,6 +5,7 @@ const VALIDATION_CLASS = {
     invalid: 'invalid'
   };
 
+  
 insertInput.addEventListener('blur', e => {
     const expectedLength = parseInt(insertInput.getAttribute('data-length'));
     if (insertInput.value.length === expectedLength) {
