@@ -9,7 +9,6 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
   }
   
-  
   toggleButton.addEventListener("click", e => {
   body.style.backgroundColor = getRandomHexColor();
   colorChanged.textContent = getRandomHexColor();
